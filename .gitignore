@@ -1,0 +1,21 @@
+# --- Build Artifacts ---
+bin/
+obj/
+out/
+TestResults/
+logs/
+*.log
+
+# --- User-Specific Files (IDE & Config) ---
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.cache
+
+# --- Dependency Cache (Installed via NuGet) ---
+.nuget/
+packages/
+project.lock.json
+project.assets.json
